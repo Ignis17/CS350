@@ -18,11 +18,9 @@ var cart=[
   {"name": "Dumbells", "type": "regular", "category": "Exercise", "price": 60.00 },
   {"name": "SSD", "type": "prime", "category": "tech", "price": 70.00 },
   {"name": "Cooling Pad", "type": "prime", "category": "tech", "price": 10.00 },
-  {"name": "Lamp", "type": "prime", "category": "office", "price": 22.00 },
-]
+  {"name": "Lamp", "type": "prime", "category": "office", "price": 22.00}];
 
 const _ = require('underscore'); // needed to have support for the reject function
-
 
 
 function isPrime(item) {
@@ -55,8 +53,6 @@ function totalCost(cart) {
     const tax = total.map(x=> x * 0.06).reduce((x,y)=> x+y);
     total.push(tax);
     
-    
-
     return total.map(x => x).reduce((x, y) => x + y).toFixed(2);
 }
 
