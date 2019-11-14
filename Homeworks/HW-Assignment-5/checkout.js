@@ -22,7 +22,6 @@ var cart=[
 
 const _ = require('underscore'); // needed to have support for the reject function
 
-
 function isPrime(item) {
     return (item.type === 'prime');
 }
@@ -51,6 +50,7 @@ function totalCost(cart) {
     total.push(discount + shipping);
     // calculates tax sales for all items
     const tax = total.map(x=> x * 0.06).reduce((x,y)=> x+y);
+    // Adds  tax sales for all items to total [] array.
     total.push(tax);
     
     return total.map(x => x).reduce((x, y) => x + y).toFixed(2);
