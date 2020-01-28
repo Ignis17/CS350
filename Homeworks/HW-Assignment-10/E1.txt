@@ -1,0 +1,21 @@
+'''
+Joel Turbi
+Dr. Zavala
+CS350 - Programming language Paradimgs
+Homework Assignment 10 - Exercise 1
+12/05/2019
+'''
+Given an input text, choose n random words from the text:
+"The raw, lingering emotion of the 2016 presidential campaign erupted
+into a shouting match here Thursday as top strategists of
+Hillary Clinton’s campaign accused their Republican counterparts of fueling and
+legitimizing racism to elect Donald Trump."
+
+- For example, given the following input text:
+- Generate the text that would result from choosing the
+following 15 words from the input text. The number
+correspond to the position of the word in the input text:
+36,20,19,15,1,35,22,20,29,9,12,23,35,21
+
+Output:
+        -> Trump. of strategists here The Donald Clinton's of fueling campaign a campaign Donald Hillary

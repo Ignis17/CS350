@@ -1,0 +1,11 @@
+'''
+Joel Turbi
+Dr. Zavala
+CS350 - Programming Language Paradigms
+Lab Assignment 10
+11/20/2019
+'''
+
+Output:
+        -> [0, 4, 16, 36, 64, 100]
+        

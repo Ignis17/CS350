@@ -1,0 +1,14 @@
+'''
+Joel Turbi
+Dr. Zavala
+CS350 - Programming Language Paradigms
+Lab Assignment 10
+11/20/2019
+'''
+
+Output:
+        -> chocolate chip cookie
+        -> banana chocolate milkshake
+        -> chip
+        -> chocolate
+        

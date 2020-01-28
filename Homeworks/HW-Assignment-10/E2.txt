@@ -1,0 +1,15 @@
+'''
+Joel Turbi
+Dr. Zavala
+CS350 - Programming language Paradimgs
+Homework Assignment 10 - Exercise 2
+12/05/2019
+'''
+- Give the 2-grams that would be generated from the following input text:
+"The raw, lingering emotion of the 2016 presidential campaign erupted
+into a shouting match here Thursday as top strategists of
+Hillary Clinton’s campaign accused their Republican counterparts of fueling and
+legitimizing racism to elect Donald Trump."
+
+Output:
+      -> {'the': ['raw', '2016'], 'raw': ['lingering'], 'lingering': ['emotion'], 'emotion': ['of'], 'of': ['the', 'hillary', 'fueling'], '2016': ['presidential'], 'presidential': ['campaign'], 'campaign': ['erupted', 'accused'], 'erupted': ['into'], 'into': ['a'], 'a': ['shouting'], 'shouting': ['match'], 'match': ['here'], 'here': ['thursday'], 'thursday': ['as'], 'as': ['top'], 'top': ['strategists'], 'strategists': ['of'], 'hillary': ['clinton�s'], 'clinton�s': ['campaign'], 'accused': ['their'], 'their': ['republican'], 'republican': ['counterparts'], 'counterparts': ['of'], 'fueling': ['and'], 'and': ['legitimizing'], 'legitimizing': ['racism'], 'racism': ['to'], 'to': ['elect'], 'elect': ['donald'], 'donald': ['trump']}
