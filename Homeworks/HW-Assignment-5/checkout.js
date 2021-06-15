@@ -25,7 +25,6 @@ const _ = require('underscore'); // needed to have support for the reject functi
 function isPrime(item) {
     return (item.type === 'prime');
 }
-
 function primeItems(cart) {
     // write your code here
     return cart.filter(isPrime);
